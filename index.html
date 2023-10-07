@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/syyle.css" />
+    <title>game over</title>
+  </head>
+  <body>
+    <div class="loading d-none">
+      <div class="lds-hourglass"></div>
+    </div>
+    <section class="games" id="games">
+      <header>
+        <img
+          src="image/Screenshot 2023-05-24 0558325.png"
+          class="w-100"
+          alt="game photo"
+        />
+      </header>
+      <nav
+        class="navbar navbar-expand-lg nav-bg w-75 mx-auto rounded-4 shadow-lg "
+        id="navBar"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="image/logo-sm.png" alt="game" style="max-width: 40px" />
+            GAME REVIEWS</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  data-category="mmorpg"
+                  >mmorpg</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category="shooter">shooter</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category="sailing">sailing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category="permadeath"
+                  >permadeath</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category="superhero"
+                  >superhero</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category="pixel">pixel</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="container my-5 home">
+        <section class="position-relative">
+          <div
+            id="gameData"
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
+          ></div>
+        </section>
+      </main>
+    </section>
+    <section class="details d-none" id="details">
+      <div class="container">
+        <header class="hstack justify-content-between">
+          <h1 class="h3 text-center py-4">Details Game</h1>
+          <button claas="btn-close" id="btnClose">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </header>
+        <div class="row g-4" id="detailsContent">
+        
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script  src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script  src="js/owl.carousel.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
